@@ -10,7 +10,7 @@ import Asteroides from "./Asteroides";
 class App extends Component {
   render() {
     return (
-      <div>
+      
         <div className="App">
           <header className="header">
             <img src={jupiter} className="App-logo" alt="logo" />
@@ -33,7 +33,7 @@ class App extends Component {
               </Switch>
             </div>
           </BrowserRouter>
-        </div>
+        
         <Footer />
       </div>
     );

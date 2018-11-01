@@ -18,11 +18,16 @@ class Home extends Component {
     return (
       <div className="BodyHome">
         <h1>Welcome</h1>
-        <form>
+        <form className="form">
           <label>
             Date de la photo:
             <Input
-              style={{ marginBottom: "2em", marginLeft: "1em", width: "20em" }}
+              style={{
+                marginBottom: "2em",
+                marginLeft: "1em",
+                width: "20em",
+                color: "white"
+              }}
               placeholder="Format de la date : YYYY-MM-JJ"
               onChange={this.handleChange}
             />

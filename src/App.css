@@ -2,11 +2,11 @@
   text-align: center;
   background: url("http://pointchurch.com/wp-content/uploads/2018/04/stars-2880x1800-galaxy-4k-6362.jpg");
   background-size: cover;
-  height: 100%;
-  max-width: 100%;
-  min-height: 800px;
+  min-height: 100vh;
   background-repeat: no-repeat;
   color: #fff;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -32,16 +32,27 @@ a {
 }
 .Home {
   color: #fff;
-  margin: 20%;
+
   font-family: "Space", sans-serif;
 }
+.AffichageA {
+  color: #fff;
+
+  font-family: "Space", sans-serif;
+  margin-bottom: 40ev;
+}
+
+form.form {
+  color: #fff !important;
+}
+
 .Asteroides {
   color: #fff;
   margin: 20%;
   font-family: "Space", sans-serif;
 }
 .header {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
   min-height: 5vh;
   display: flex;
   flex-direction: row;
@@ -66,12 +77,12 @@ h2 {
   color: #61dafb;
 }
 .Footer {
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 200px;
+  height: 25vh;
 }
 
 @keyframes App-logo-spin {
@@ -82,9 +93,11 @@ h2 {
     transform: rotate(360deg);
   }
 }
+
 ul {
   list-style: none;
 }
+
 li {
   margin: 2% 20% 2% 20%;
   font-size: 22px;
